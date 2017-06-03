@@ -2,8 +2,7 @@
  * Created by danie on 6/3/2017.
  */
 //FILTER
-
-let arreglo = [
+var arreglo = [
     {
         nombre: "Daniel",
         apellido: 'Freire',
@@ -35,9 +34,7 @@ let arreglo = [
         id: 5
     }
 ];
-
-let r = arreglo.filter((valor, indice, arreglo) => {
-   return valor.nota < 7;
+var r = arreglo.filter(function (valor, indice, arreglo) {
+    return valor.nota < 7;
 });
-
 console.log(r);
