@@ -26,3 +26,17 @@
 .idea/workspace.xml
 .idea/workspace.xml
 .idea/workspace.xml
+06-Backend/*/node_modules
+06-Backend/Callbacks/node_modules/bcrypt-nodejs/bCrypt.js
+06-Backend/Callbacks/node_modules/bcrypt-nodejs/.npmignore
+06-Backend/Callbacks/node_modules/array-flatten/README.md
+06-Backend/Callbacks/node_modules/array-flatten/package.json
+06-Backend/Callbacks/node_modules/array-flatten/LICENSE
+06-Backend/Callbacks/node_modules/array-flatten/array-flatten.js
+06-Backend/Callbacks/node_modules/accepts/README.md
+06-Backend/Callbacks/node_modules/accepts/package.json
+06-Backend/Callbacks/node_modules/accepts/LICENSE
+06-Backend/Callbacks/node_modules/accepts/index.js
+06-Backend/Callbacks/node_modules/accepts/HISTORY.md
+06-Backend/Callbacks/node_modules/.bin/mime.cmd
+06-Backend/Callbacks/node_modules/.bin/mime
