@@ -20,19 +20,28 @@ module.exports = {
       return res.send("Error");
   },
   crearUsuarioQuemado: (req, res) => {
+    let parametros = req.allParams();
     let nuevoUsuario = {
+      nombre: parametros.nombre,
+      apellidos: parametros.apellidos,
+      password: parametros.password,
+      emailAddress: parametros.emailAddress,
+      fechaNacimiento: parametros.fechaNacimiento
+    };
+
+    /*let nuevoUsuario = {
       nombre: 'Daniel',
       apellidos: 'Freire',
       password: '1234',
       emailAddress: '1@1.com',
       fechaNacimiento: new Date()
-    }
+    };*/
 
     Usuario.create(nuevoUsuario).exec((err, usuarioCreado) => {
       if(err)
         return res.serverError(err);
       else
         return res.ok(usuarioCreado);
-    })
+    });
   }
 };
