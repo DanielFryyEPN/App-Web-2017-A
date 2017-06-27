@@ -2,6 +2,8 @@
  * Created by danie on 6/19/2017.
  */
 declare let module;
+declare let sails;
+declare let Usuario;
 module.exports = {
   welcome: (req, res) => {
     // POST
@@ -16,5 +18,21 @@ module.exports = {
       return res.json({saludo: "Hello"});
     else
       return res.send("Error");
+  },
+  crearUsuarioQuemado: (req, res) => {
+    let nuevoUsuario = {
+      nombre: 'Daniel',
+      apellidos: 'Freire',
+      password: '1234',
+      emailAddress: '1@1.com',
+      fechaNacimiento: new Date()
+    }
+
+    Usuario.create(nuevoUsuario).exec((err, usuarioCreado) => {
+      if(err)
+        return res.serverError(err);
+      else
+        return res.ok(usuarioCreado);
+    })
   }
 };

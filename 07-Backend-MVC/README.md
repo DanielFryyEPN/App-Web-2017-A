@@ -28,3 +28,7 @@ Comando para crear controladores
 ```
 $ sails generate controller Saludo
 ```
+##Comando para crear modelos
+```
+$ sails generate model Usuario
+```
