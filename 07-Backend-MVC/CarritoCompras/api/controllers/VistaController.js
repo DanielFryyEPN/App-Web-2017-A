@@ -4,5 +4,15 @@
 module.exports = {
     vistaOculta: function (req, res) {
         return res.view('Oculto/sorpresa');
+    },
+    homepage: function (req, res) {
+        var usuarioModelo = {
+            nombres: 'Daniel',
+            apellidos: 'Freire',
+            id: 1
+        };
+        res.view('homepage', {
+            usuario: usuarioModelo
+        });
     }
 };
