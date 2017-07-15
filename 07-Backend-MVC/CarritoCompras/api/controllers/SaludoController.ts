@@ -21,6 +21,8 @@ module.exports = {
   },
   crearUsuarioQuemado: (req, res) => {
     let parametros = req.allParams();
+    // http://localhost:1337/Saludo/crearUsuarioQuemado
+    sails.log.info("Parametros", parametros);
     let nuevoUsuario = {
       nombre: parametros.nombre,
       apellidos: parametros.apellidos,

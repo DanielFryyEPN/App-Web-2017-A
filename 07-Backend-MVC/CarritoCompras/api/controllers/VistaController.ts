@@ -14,5 +14,8 @@ module.exports = {
     res.view('homepage', {
       usuario: usuarioModelo
     });
+  },
+  crearUsuario: (req, res) => {
+    res.view('crearUsuario');
   }
 };
