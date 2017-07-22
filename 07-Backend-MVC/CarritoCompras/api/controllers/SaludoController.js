@@ -35,7 +35,7 @@ module.exports = {
             if (err)
                 return res.serverError(err);
             else
-                return res.ok(usuarioCreado);
+                return res.redirect('/');
         });
     }
 };
