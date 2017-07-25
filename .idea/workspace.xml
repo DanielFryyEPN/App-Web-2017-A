@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2833ddd-449b-4cfe-b6c4-33eff9bead5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/crearUsuario.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/editarUsuario.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.js" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.js" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.ts" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.js" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.ts" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/header.ejs" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs" afterPath="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +27,33 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VistaController.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VistaController.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="257">
+              <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editarUsuario.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/editarUsuario.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+              <folding>
+                <element signature="e#929#1490#0#HTML" expanded="false" />
+                <marker date="1500946331290" expanded="false" signature="963:1211" ph="..." />
               </folding>
             </state>
           </provider>
@@ -49,18 +62,8 @@
       <file leaf-file-name="homepage.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crearUsuario.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/crearUsuario.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="29" column="121" lean-forward="false" selection-start-line="29" selection-start-column="121" selection-end-line="29" selection-end-column="121" />
+            <state relative-caret-position="283">
+              <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -69,13 +72,23 @@
       <file leaf-file-name="SaludoController.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="403">
+              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
                 <element signature="e#146#275#0" expanded="false" />
                 <element signature="e#305#431#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuarioController.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,13 +162,15 @@
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/layout.ejs" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/assets/styles/EstilosPerfil.css" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/footer.ejs" />
-        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/header.ejs" />
-        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js" />
-        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/crearUsuario.ejs" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/.tmp/localDiskDb.db" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.ts" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/editarUsuario.ejs" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.ts" />
       </list>
     </option>
   </component>
@@ -166,6 +181,7 @@
     <exe-path />
     <annotation-enable>false</annotation-enable>
     <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -176,7 +192,7 @@
     <handled-path value="$PROJECT_DIR$/06-Backend/NPM/node_modules" />
     <handled-path value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -197,201 +213,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App-Web-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="07-Backend-MVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarritoCompras" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="CarritoCompras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="CarritoCompras" type="462c0819:PsiDirectoryNode" />
+              <item name=".tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="CarritoCompras" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="CarritoCompras" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="App-Web-2017-A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App-Web-2017-A" type="462c0819:PsiDirectoryNode" />
+              <item name="07-Backend-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="CarritoCompras" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Projects/Web/MemoryGame" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="font&#9;ACTION&#9;EditorDecreaseFontSize" />
@@ -417,6 +298,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -452,15 +341,6 @@
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -516,15 +396,19 @@
       <workItem from="1498522239898" duration="4864000" />
       <workItem from="1498911875654" duration="7002000" />
       <workItem from="1499517400031" duration="2325000" />
-      <workItem from="1500121405075" duration="5495000" />
+      <workItem from="1500121405075" duration="5596000" />
+      <workItem from="1500727018973" duration="5129000" />
+      <workItem from="1500740078941" duration="514000" />
+      <workItem from="1500939407717" duration="6811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64228000" />
+    <option name="totallyTimeSpent" value="76783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -533,7 +417,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32587412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32587412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -546,19 +430,21 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Template Strings.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Fat arrow functions.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Object Literals.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/forEach.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Map.js" />
         <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Every y Some.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Filter.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/TypeScript/Clases.js" />
-        <option value="$PROJECT_DIR$/05-TypeScript/TypeScript/Functions.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Object Literals.js" />
         <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Find.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Fat arrow functions.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Template Strings.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/forEach.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Filter.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/Ecmascript/Map.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/TypeScript/Functions.js" />
+        <option value="$PROJECT_DIR$/05-TypeScript/TypeScript/Clases.js" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/models/Usuario.js" />
+        <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.js" />
         <option value="$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.js" />
       </list>
     </option>
@@ -571,28 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02-CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="52">
-            <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-TypeScript/Ecmascript/Fat arrow functions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -849,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,22 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="42" column="33" lean-forward="false" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -912,10 +759,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/.tmp/localDiskDb.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/SaludoController.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="403">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
             <element signature="e#146#275#0" expanded="false" />
@@ -924,29 +778,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/.tmp/localDiskDb.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/crearUsuario.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="29" column="121" lean-forward="false" selection-start-line="29" selection-start-column="121" selection-end-line="29" selection-end-column="121" />
+        <state relative-caret-position="377">
+          <caret line="29" column="121" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/VistaController.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="257">
+          <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/homepage.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/views/editarUsuario.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+          <folding>
+            <element signature="e#929#1490#0#HTML" expanded="false" />
+            <marker date="1500946331290" expanded="false" signature="963:1211" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Backend-MVC/CarritoCompras/api/controllers/UsuarioController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

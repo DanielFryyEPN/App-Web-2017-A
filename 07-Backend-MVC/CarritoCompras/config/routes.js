@@ -40,7 +40,9 @@ module.exports.routes = {
   'get /ContenidoOculto':
     'VistaController.vistaOculta',
   'get /crearUsuario':
-    'VistaController.crearUsuario'
+    'VistaController.crearUsuario',
+  'get /editarUsuario':
+    'VistaController.editarUsuario'
 
   /***************************************************************************
   *                                                                          *

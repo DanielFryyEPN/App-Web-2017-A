@@ -38,5 +38,24 @@ module.exports = {
     },
     crearUsuario: function (req, res) {
         res.view('crearUsuario');
+    },
+    editarUsuario: function (req, res) {
+        var params = req.allParams();
+        if (params.id) {
+            Usuario.findOne({
+                id: params.id
+            })
+                .exec(function (err, usuarioEncontrado) {
+                if (err)
+                    return res.serverError(err);
+                if (usuarioEncontrado) {
+                    return res.view('editarUsuario', { usuario: usuarioEncontrado });
+                }
+                else
+                    res.redirect('/crearUsuario');
+            });
+        }
+        else
+            res.redirect('/crearUsuario');
     }
 };

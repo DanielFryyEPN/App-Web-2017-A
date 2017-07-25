@@ -1,0 +1,38 @@
+<h1>Editar Usuario</h1>
+<form action="/Usuario/editarUsuario" method="get">
+  <input hidden class="form-control" type="text" value="<%=usuario.id%>" id="id" name="id">
+  <div class="form-group row">
+    <label for="nombres" class="col-2 col-form-label">Nombres</label>
+    <div class="col-10">
+      <input class="form-control" type="text" value="<%=usuario.nombre%>" id="nombres" name="nombre">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="apellidos" class="col-2 col-form-label">Apellidos</label>
+    <div class="col-10">
+      <input class="form-control" type="text" value="<%=usuario.apellidos%>" id="apellidos" name="apellidos">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="correo" class="col-2 col-form-label">Email</label>
+    <div class="col-10">
+      <input class="form-control" type="email" value="<%=usuario.correo%>" id="correo" name="emailAddress">
+    </div>
+  </div>
+  <!--
+  <div class="form-group row">
+    <label for="fecha-nacimiento" class="col-2 col-form-label">Fecha</label>
+    <div class="col-10">
+      <input class="form-control" type="date" value="" placeholder="dd/mm/yyyy" id="fecha-nacimiento" name="fechaNacimiento">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="password" class="col-2 col-form-label">Password</label>
+    <div class="col-10">
+      <input class="form-control" type="password" value="" placeholder="Ingrese su password" id="password" name="password">
+    </div>
+  </div>
+  -->
+
+  <button type="submit" class="btn btn-outline-success">Editar</button>
+</form>
