@@ -1,5 +1,19 @@
 <h1>Homepage</h1>
 
+<h2>Crear Usuario</h2>
+
+<div class="form-group row">
+  <label for="nombres" class="col-4 col-form-label">
+    Ingrese Nombres
+  </label>
+  <div class="col-8">
+    <input class="form-control" placeholder="Buscar" id="nombres">
+  </div>
+</div>
+<button class="btn btn-primary" onclick="crearNuevoUsuario()">Crear Nuevo Usuario</button>
+
+<h2>Busqueda Usaurios</h2>
+
 <form action="">
   <div class="form-group row">
     <label for="busqueda" class="col-4 col-form-label">
@@ -13,7 +27,7 @@
   <button class="btn btn-success btn-block"> Buscar</button>
 </form>
 
-<div class="row">
+<div id="contenedor" class="row">
   <% for(var i=0;i<usuarios.length;i++){ %>
   <div class="col-sm-4">
     <h1><%=usuarios[i].nombre%></h1>
@@ -27,3 +41,36 @@
   <%}%>
 
 </div>
+
+<script>
+  var url = "http://localhost:1337/Usuario";
+  var metodo = "POST";
+  var campoNombre;
+  var usuario;
+  var xhttp;
+  function crearNuevoUsuario() {
+    campoNombre = document.getElementById("nombres").value;
+    usuario = {
+      nombres: campoNombre
+    };
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = agregarusuarioALaInterfaz;
+
+    var parametros = "?nombres="+usuario.nombres;
+    xhttp.open(metodo, url+parametros);
+    xhttp.send();
+  }
+  function agregarusuarioALaInterfaz() {
+    if (this.readyState == 4 && this.status == 201) {
+      var usuarioCreado = JSON.parse(xhttp.responseText);
+      var nuevoUsuarioNodo = document.createElement("div");
+      nuevoUsuarioNodo.className = "col-sm-4";
+      var htmlNuevoUsuario = "<h1>" + usuarioCreado.nombres + "</h1>";
+      nuevoUsuarioNodo.innerHTML = htmlNuevoUsuario;
+      var contenedor = document.getElementById("contenedor");
+      contenedor.appendChild(nuevoUsuarioNodo);
+    } else {
+
+    }
+  }
+</script>
