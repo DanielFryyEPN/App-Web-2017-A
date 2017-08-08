@@ -28,5 +28,35 @@ module.exports = {
         }
         else
             return res.badRequest();
+    },
+    AnadirUsuarioCarrito: function (req, res) {
+        var params = req.allParams();
+        if (params.id) {
+            var cookies = req.cookies;
+            if (cookies.arregloUsuarios) {
+                var arregloUsuarios = cookies.arregloUsuarios.idsUsuarios;
+                var existeUsuario = arregloUsuarios.find(function (idUsuario) {
+                    return idUsuario == params.id;
+                });
+                if (existeUsuario) {
+                    return res.redirect('/');
+                }
+                else {
+                    arregloUsuarios.push(params.id);
+                    return res.redirect('/');
+                }
+            }
+            else {
+                var arregloUsuarios = [];
+                arregloUsuarios.push(params.id);
+                res.cookies('arregloUsuarios', {
+                    idsUsuarios: params.id
+                });
+                return res.redirect('/');
+            }
+        }
+        else {
+            return res.badRequest('No envia parametros');
+        }
     }
 };

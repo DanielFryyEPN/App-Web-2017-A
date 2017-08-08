@@ -24,5 +24,32 @@ module.exports = {
         });
     } else
       return res.badRequest();
+  },
+  AnadirUsuarioCarrito: (req, res) => {
+    let params = req.allParams();
+    if(params.id) {
+      let cookies = req.cookies;
+      if(cookies.arregloUsuarios) {
+        let arregloUsuarios = cookies.arregloUsuarios.idsUsuarios;
+        let existeUsuario = arregloUsuarios.find(idUsuario => {
+          return idUsuario == params.id;
+        });
+        if(existeUsuario) {
+          return res.redirect('/');
+        } else {
+          arregloUsuarios.push(params.id);
+          return res.redirect('/');
+        }
+      } else {
+        let arregloUsuarios = [];
+        arregloUsuarios.push(params.id);
+        res.cookies('arregloUsuarios', {
+          idsUsuarios: params.id
+        });
+        return res.redirect('/');
+      }
+    } else {
+      return res.badRequest('No envia parametros');
+    }
   }
 };
